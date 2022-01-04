@@ -14,7 +14,7 @@ USER ${NB_USER}
 RUN conda init zsh && conda init bash
 
 WORKDIR ${HOME}/.kernels
-RUN chmod +x install-kernels.sh && cd /home/jovyan/.kernels && ./install-kernels.sh environments
+#RUN chmod +x install-kernels.sh && cd /home/jovyan/.kernels && ./install-kernels.sh environments
 
 
 
